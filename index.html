@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AM MART — Everyday Essentials</title>
+  <link rel="icon" href="images/logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Abel', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+<!-- NAVBAR -->
+<header class="bg-white/80 backdrop-blur sticky top-0 z-50 border-b">
+  <nav class="container mx-auto flex justify-between items-center px-6 py-4">
+    <div class="flex items-center gap-3">
+      <img src="images/logo.png" class="w-10 h-10">
+      <span class="font-bold text-lg tracking-wide text-purple-700">AM MART</span>
+    </div>
+
+    <ul class="hidden md:flex gap-8 font-medium">
+      <li><a href="#" class="hover:text-purple-600">Home</a></li>
+      <li><a href="#product" class="hover:text-purple-600">Product</a></li>
+      <li><a href="#about" class="hover:text-purple-600">About</a></li>
+      <li><a href="#contact" class="hover:text-purple-600">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="bg-gradient-to-br from-purple-700 via-purple-600 to-pink-600 text-white">
+  <div class="container mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+    
+    <div>
+      <span class="uppercase tracking-widest text-sm opacity-80">Everyday Essentials</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mt-4">
+        Belanja Mudah,  
+        <span class="text-yellow-300">Harga Bersahabat</span>
+      </h1>
+      <p class="mt-6 text-lg opacity-90">
+        AM MART menghadirkan kebutuhan harian pilihan dengan kualitas terpercaya dan harga terbaik.
+      </p>
+
+      <div class="mt-8 flex gap-4">
+        <a href="#product"
+           class="bg-white text-purple-700 px-6 py-3 rounded-full font-bold hover:bg-yellow-300 transition">
+          Lihat Produk
+        </a>
+        <a href="#about"
+           class="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-purple-700 transition">
+          Tentang Kami
+        </a>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="images/minuman/guava.png"
+           class="w-72 md:w-[380px] drop-shadow-2xl">
+    </div>
+
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="py-12 bg-white">
+  <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div>
+      <h3 class="text-3xl font-bold text-purple-700">100+</h3>
+      <p class="text-sm text-slate-500">Produk Pilihan</p>
+    </div>
+    <div>
+      <h3 class="text-3xl font-bold text-purple-700">10K+</h3>
+      <p class="text-sm text-slate-500">Pelanggan Puas</p>
+    </div>
+    <div>
+      <h3 class="text-3xl font-bold text-purple-700">24/7</h3>
+      <p class="text-sm text-slate-500">Akses Mudah</p>
+    </div>
+    <div>
+      <h3 class="text-3xl font-bold text-purple-700">100%</h3>
+      <p class="text-sm text-slate-500">Original</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT -->
+<section id="product" class="container mx-auto px-6 py-20">
+  <div class="text-center mb-14">
+    <h2 class="text-3xl font-bold text-purple-700">Produk Unggulan</h2>
+    <p class="text-slate-500 mt-3">Pilihan terbaik untuk kebutuhan sehari-hari</p>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-10">
+    
+    <!-- CARD -->
+    <div class="bg-white rounded-3xl shadow hover:shadow-xl transition group">
+      <div class="p-8 text-center">
+        <img src="images/makanan/chitato.png"
+             class="w-40 mx-auto group-hover:scale-110 transition">
+        <h3 class="text-xl font-semibold mt-6">Chitato</h3>
+        <p class="text-sm text-slate-500 mt-2">
+          Keripik kentang premium rasa Aburi Seaweed.
+        </p>
+        <div class="mt-4 text-2xl font-bold text-purple-700">
+          Rp12.000
+        </div>
+        <button class="mt-6 w-full bg-purple-600 text-white py-3 rounded-full hover:bg-purple-700 transition">
+          Tambah ke Keranjang
+        </button>
+      </div>
+    </div>
+    <div class="bg-white rounded-3xl shadow hover:shadow-xl transition group">
+      <div class="p-8 text-center">
+        <img src="images/makanan/qtela.png"
+             class="w-40 mx-auto group-hover:scale-110 transition">
+        <h3 class="text-xl font-semibold mt-6">Qtela</h3>
+        <p class="text-sm text-slate-500 mt-2">
+          Keripik tempe dengan banyak varian rasa favorit.
+        </p>
+        <div class="mt-4 text-2xl font-bold text-purple-700">
+          Rp.10.000
+        </div>
+        <button class="mt-6 w-full bg-purple-600 text-white py-3 rounded-full hover:bg-purple-700 transition">
+          Tambah ke Keranjang
+        </button>
+      </div>
+    </div>
+    <div class="bg-white rounded-3xl shadow hover:shadow-xl transition group">
+      <div class="p-8 text-center">
+        <img src="images/makanan/pop mie sedaap.jfif"
+             class="w-40 mx-auto group-hover:scale-110 transition">
+        <h3 class="text-xl font-semibold mt-6">Pop Mie</h3>
+        <p class="text-sm text-slate-500 mt-2">
+          Mi instan cup praktis dengan rasa lezat.
+        </p>
+        <div class="mt-4 text-2xl font-bold text-purple-700">
+          Rp.7.000
+        </div>
+        <button class="mt-6 w-full bg-purple-600 text-white py-3 rounded-full hover:bg-purple-700 transition">
+          Tambah ke Keranjang
+        </button>
+      </div>
+    </div>
+    
+
+    <!-- DUPLIKASI CARD -->
+    <!-- Qtela -->
+    <!-- Pop Mie -->
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="bg-slate-100 py-20">
+  <div class="container mx-auto px-6 text-center max-w-3xl">
+    <h2 class="text-3xl font-bold text-purple-700">Tentang AM MART</h2>
+    <p class="mt-6 text-slate-600 leading-relaxed">
+      AM MART adalah toko ritel modern yang berfokus pada penyediaan
+      kebutuhan harian dengan kualitas terbaik dan harga bersaing.
+      Website ini merupakan prototype serius yang dirancang dengan
+      standar industri digital retail modern.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-slate-900 text-slate-400 py-10 text-center">
+  <p class="text-sm">
+    © 2025 <span class="text-purple-400 font-semibold">AM MART</span>. All rights reserved.
+  </p>
+</footer>
+
+</body>
+</html>
